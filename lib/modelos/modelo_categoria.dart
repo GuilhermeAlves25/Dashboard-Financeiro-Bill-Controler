@@ -35,20 +35,20 @@ class ModeloCategoria extends Equatable {
   Map<String, dynamic> paraMapa() {
     return {
       'id': id,
-      'name': nome,
-      'iconCodePoint': icone.codePoint,
-      'colorValue': cor.value,
-      'type': tipo,
+      'nome': nome,
+      'codigoPontoIcone': icone.codePoint,
+      'valorCor': cor.value,
+      'tipo': tipo,
     };
   }
 
   factory ModeloCategoria.deMapa(Map<String, dynamic> map) {
     return ModeloCategoria(
       id: map['id'] as int?,
-      nome: map['name'] ?? '',
-      icone: IconData(map['iconCodePoint'] ?? 0xe047, fontFamily: 'MaterialIcons'),
-      cor: Color(map['colorValue'] ?? 0xFF000000),
-      tipo: map['type'] ?? 'expense',
+      nome: map['nome'] ?? '',
+      icone: IconData(map['codigoPontoIcone'] ?? 0xe047, fontFamily: 'MaterialIcons'),
+      cor: Color(map['valorCor'] ?? 0xFF000000),
+      tipo: map['tipo'] ?? 'expense',
     );
   }
 
