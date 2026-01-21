@@ -12,6 +12,8 @@
 
 ---
 
+video demonstrativo: https://youtu.be/TWiQTM2tlOI
+
 ## Sobre o Projeto
 
 O **Bill Controler** é um aplicativo mobile de controle financeiro pessoal desenvolvido com **Flutter**, projetado para ajudar usuários a gerenciar suas finanças de forma simples e eficiente. O projeto implementa as melhores práticas de desenvolvimento mobile, incluindo **Clean Architecture** e padrão **BLoC** para gerenciamento de estado, garantindo código escalável, testável e de fácil manutenção.
